@@ -39,8 +39,6 @@ function App() {
         <button>Register</button>
       </div>
         
-        
-
       <div className="button" >
         <button onClick={handleClearCanvas} > CLEAR </button>
       </div>
