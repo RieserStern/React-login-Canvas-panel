@@ -38,9 +38,7 @@ function App() {
         <input placeholder="confirm-password" type="password" />
         <button>Register</button>
       </div>
-        
-        
-
+      
       <div className="button" >
         <button onClick={handleClearCanvas} > CLEAR </button>
       </div>
