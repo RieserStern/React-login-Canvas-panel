@@ -1,64 +1,45 @@
-body {
-  padding: 0px;
-  margin: 0px;
-  font-family: 'Ubuntu', sans-serif;
-}
-
-.container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.login,
-.register {
-  width: 400px;
-}
-
-.login h2,
-.register h2 {
-  font-size: 45px;
-  text-transform: uppercase;
+.App {
   text-align: center;
 }
 
-.login a {
+.App-main{
+  background-color: rgb(50, 4, 83);
+  padding: 20px;
+  max-height: 90vh;
+  max-width: 90vw;
+
+}
+
+.App-canvas{
+  background-color: cornsilk;
+  border: 5px;
+  border-color: black;
+
+}
+
+button {
+  background-color: rgb(34, 20, 95);
+  border: 1px solid rgb(124, 110, 185);
+  color: white;
+  padding: 5px 15px;
   text-align: center;
-}
-
-input[type='text'] {
-  background-color: #e6e6e6;
-  color: #827ffe;
+  text-decoration: none;
+  display: inline-block;
   font-size: 16px;
-  margin-bottom: 20px;
-  border: none;
-  width: 85%;
-  padding: 20px 30px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-input[type='password'] {
-  background-color: #e6e6e6;
-  padding: 20px 30px;
-  color: #827ffe;
-  font-size: 16px;
-  margin-bottom: 20px;
-  border: none;
-  width: 85%;
+button:hover{
+  background-color: rgb(104, 80, 212);
 }
 
-input[type='submit'] {
-  padding: 15px 0px;
-  background-color: #827ffe;
-  color: #fff;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  border: none;
-  width: 100%;
+.login{
+  float: left;
 }
 
-.check {
-  font-size: 16px;
+.register{
+
 }
