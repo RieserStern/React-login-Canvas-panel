@@ -1,0 +1,20 @@
+{
+  "name": "login-form",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "konva": "^8.3.8",
+    "react": "^16.1.0-beta",
+    "react-dom": "^16.1.0-beta",
+    "react-konva": "^1.5.5-beta",
+    "react-konva-utils": "^0.3.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
