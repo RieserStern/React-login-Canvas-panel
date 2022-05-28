@@ -17,7 +17,7 @@ function App() {
   const handleClearCanvas=(event)=>{
     setCoordinates([]);
   };
-
+  
   return (
     <main className="App-main" >
       <canvas 
