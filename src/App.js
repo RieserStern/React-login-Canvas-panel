@@ -16,37 +16,6 @@ import {Stage, Layer, Circle} from 'react-konva';
 //   return <Canvas draw={draw} />
 // }
 
-<<<<<<< HEAD
-  const handleClearCanvas=(event)=>{
-    setCoordinates([]);
-  };
-  
-  return (
-    <main className="App-main" >
-      <canvas 
-        className="App-canvas"
-        ref={canvasRef}
-        width={canvasWidth}
-        height={canvasHeight}
-        />
-      <div className="login">
-       <input placeholder="Name"></input>
-        <input placeholder="password" type="password"></input>
-        <button>Log in</button>
-      </div>
-      <div className="register">
-       <input placeholder="Name" />
-       <input placeholder="Email" />
-        <input placeholder="password" type="password" />
-        <input placeholder="confirm-password" type="password" />
-        <button>Register</button>
-      </div>
-        
-      <div className="button" >
-        <button onClick={handleClearCanvas} > CLEAR </button>
-      </div>
-    </main>
-=======
 const App = () => {
   const [circle, setCircles] = React.useState([{x: 10, y: 10}, {x: 100, y: 100}]);
 
@@ -64,7 +33,6 @@ const App = () => {
         ))}
       </Layer>
     </Stage>
->>>>>>> a5d0160dd6c23987601bdbab0ddb54e569e82ace
   );
 }
 

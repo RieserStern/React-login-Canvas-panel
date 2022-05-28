@@ -12,8 +12,4 @@ ReactDOM.render(
     document.getElementById('root')
   );
 
-<<<<<<< HEAD
 serviceWorker.unregister();
-=======
-serviceWorker.unregister();
->>>>>>> a5d0160dd6c23987601bdbab0ddb54e569e82ace
