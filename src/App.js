@@ -12,7 +12,8 @@ import {Stage, Layer, Circle} from 'react-konva';
 //     ctx.arc(50, 100, 20*Math.sin(frameCount*0.05)**2, 0, 2*Math.PI)
 //     ctx.fill()
 //   }
-  
+
+
 //   return <Canvas draw={draw} />
 // }
 
