@@ -4,7 +4,7 @@ import {Stage, Layer, Circle} from 'react-konva';
 
 
 // function App() {
-  
+
 //   const draw = (ctx, frameCount) => {
 //     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height)
 //     ctx.fillStyle = '#000000'
