@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
-import KonvaDrawer from './KonvaDrawer';
 
 ReactDOM.render(
-    <React.StrictMode>
-      <App />
-      {KonvaDrawer()}
-    </React.StrictMode>,
-    document.getElementById('root')
-  );
-
-serviceWorker.unregister();
+	<BrowserRouter>
+		<App />
+	</BrowserRouter>,
+	document.getElementById('root')
+	
+);
